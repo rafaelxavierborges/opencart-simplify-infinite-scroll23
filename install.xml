@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+    <name>Simplify infinite scroll</name>
+    <version>1.0</version>
+    <author>Has many</author>
+    <code>simplify-infinite-scroll</code>
+    <link>http://connectinformatica.org</link>
+    <file path="catalog/view/theme/*/template/common/header.tpl">
+        <operation>
+            <search><![CDATA[
+            </head>
+            ]]></search>
+            <add position="before"><![CDATA[
+            <meta http-equiv="cache-control" content="max-age=0" />
+            ]]></add>
+        </operation>
+    </file>  
+</modification>

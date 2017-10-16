@@ -1,0 +1,71 @@
+i.iscroller-separator {
+    display: block!important;
+    position: relative!important;
+    width: auto!important;
+    text-align: center;
+    clear: both;
+    float: none;
+    margin: 15px;
+    font-style: normal;
+}
+.iscroller-separator:before, .iscroller-separator:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 50%;
+    z-index: 0;
+    width: 50%;
+    height: 1px;
+}
+.iscroller-separator:before {
+    background: -moz-linear-gradient(right, rgba(204,204,204,0) 10px, rgba(204,204,204,1) 10px, rgba(204,204,204,0) 100%);
+    background: -webkit-linear-gradient(right, rgba(204,204,204,0) 10px, rgba(204,204,204,1) 10px,rgba(204,204,204,0) 100%);
+    background: -o-linear-gradient(right, rgba(204,204,204,0) 10px, rgba(204,204,204,1) 10px,rgba(204,204,204,0) 100%);
+    background: -ms-linear-gradient(right, rgba(204,204,204,0) 10px, rgba(204,204,204,1) 10px,rgba(204,204,204,0) 100%); 
+    background: linear-gradient(to left, rgba(204,204,204,0) 10px, rgba(204,204,204,1) 10px,rgba(204,204,204,0) 100%); 
+    left: 0;
+}
+.iscroller-separator:after {
+    background: -moz-linear-gradient(left, rgba(204,204,204,0) 10px, rgba(204,204,204,1) 10px, rgba(204,204,204,0) 100%);
+    background: -webkit-linear-gradient(left, rgba(204,204,204,0) 10px, rgba(204,204,204,1) 10px,rgba(204,204,204,0) 100%);
+    background: -o-linear-gradient(left, rgba(204,204,204,0) 10px, rgba(204,204,204,1) 10px,rgba(204,204,204,0) 100%);
+    background: -ms-linear-gradient(left, rgba(204,204,204,0) 10px, rgba(204,204,204,1) 10px,rgba(204,204,204,0) 100%); 
+    background: linear-gradient(to right, rgba(204,204,204,0) 10px, rgba(204,204,204,1) 10px,rgba(204,204,204,0) 100%); 
+    right: 0;
+}
+.iscroller-separator > span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    color: #999;
+    position: relative;
+    line-height: 20px;
+}
+.iscroller-btn-cont {
+    text-align: center;
+}
+#infscr-loading {
+    clear: both;
+    float: none;
+    text-align: center;
+    display: block;
+    position: relative;
+    font-style: normal;
+}
+#infscr-loading i {
+    display: block;
+    position: relative;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+

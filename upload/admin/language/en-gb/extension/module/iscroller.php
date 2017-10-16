@@ -1,0 +1,26 @@
+<?php
+$_['heading_title']               = 'Simplify infinite scroll';
+$_['heading_title_adv']           = 'Simplify infinite scroll';
+$_['save_and_stay']               = 'Save & Stay';
+$_['save_and_close']              = 'Save & Close';
+$_['text_edit']                   = 'Edit';
+$_['modules']                     = 'Modules';
+$_['status']                      = 'Status';
+$_['enabled']                     = 'Enabled';
+$_['disabled']                    = 'Disabled';
+$_['loading_msg']                 = '<span  data-toggle="tooltip" title="" data-original-title="The message will be shown while loading the next portion of items">Loading Message</span>';
+$_['loading_def_msg']             = 'Loading... Please wait';
+$_['finish_msg']                  = '<span  data-toggle="tooltip" title="" data-original-title="The message will be shown when the end of item list will be achieved">Message at the end of list</span>';
+$_['finish_def_msg']              = 'End of list';
+$_['container_selector']          = '<span  data-toggle="tooltip" title="" data-original-title="CSS selector of the DOM element which contains products and where the new ones will be appended">Product Container CSS Selector</span>';
+$_['paginator_selector']          = '<span  data-toggle="tooltip" title="" data-original-title="CSS selector of the DOM element which contains pagination links">Pagination Block CSS Selector</span>';
+$_['item_selector']               = '<span  data-toggle="tooltip" title="" data-original-title="CSS selector of the DOM element which contains image and other accompanying data of a single product">Product Item CSS Selector</span>';
+$_['active_page_selector']        = 'Active Page CSS Selector';
+$_['min_dist_to_bottom']          = '<span  data-toggle="tooltip" title="" data-original-title="Minimum distance in pixels to the bottom of the product list when the next page should be loaded">Minimum Distance to Bottom</span>';
+$_['debug_mode']                  = '<span  data-toggle="tooltip" title="" data-original-title="The mode is designed to help in solving issues in work of the extension. The setting enables debug messaging to console.log.">Debug Mode</span>';
+$_['loading_mode']                = 'Next Page Loading Mode';
+$_['infinite_scroller']           = 'Infinite Scroll Isotope';
+$_['enable_infinite_scroll']      = 'Enable Infinite Scroll Isotope';
+$_['fit_to_container']            = '<span  data-toggle="tooltip" title="" data-original-title="The bar (or button) will stick to one of the sides of the element with CSS selector specified, e.g. #content. Leave the text field empty if you want it to stick to the window.">Fit to the container</span>';
+$_['error_permission']            = 'Access Denied! You are not allowed to modify the settings';
+$_['text_success']                = 'Success: You have modified featured module!';
